@@ -1,0 +1,257 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+a {
+  color: #35463f;
+}
+
+a span {
+  display:none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #A4957D;
+}
+
+a:active {
+  color: #35463f;
+}
+
+.button {
+  border: 0;
+  display: inline-block;
+  font-family: inherit;
+  background-color: #35463f;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.8s opacity;
+  -o-transition: 0.8s opacity;
+  transition: 0.8s opacity;
+}
+
+button {
+  border: 0;
+  display: inline-block;
+  font-family: inherit;
+  background-color: #35463f;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.8s opacity;
+  -o-transition: 0.8s opacity;
+  transition: 0.8s opacity;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+thead {
+  background-color: #35463f;
+  color: #fff;
+}
+
+.profile__portrait {
+  float: flex;
+  text-align: center;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 40%;
+}
+
+.page-footer {
+  clear: both;
+  display: static;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.body_margin {
+  text-align: center;
+  margin-left: 25px;
+}
+
+.body_center {
+  text-align: center;
+}
+.my_work {
+  margin-left: 25px;
+}
+
+.section_margin {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.my_life {
+  margin-left: 25px;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.profile__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
+}
+
+.page-header {
+  text-align: right;
+  width: 100%;
+  padding: 25px;
+}
+
+.page-header__item {
+  text-align: right;
+  text-align: right;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
+}
+
+.page-header__item:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-list li {
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+
+.grid__item {
+  display: inline-block;
+  width: 33%;
+  }
+
+  .grid__item {
+    background-color: lightgray;
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
+
+  .grid__item:last-child {
+    -ms-grid-column: 3;
+    grid-column: 3 / 3;
+    -ms-grid-row: 3;
+    grid-row: 3 / 3;
+  }
+
+@media all and (max-width: 500px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 750px){
+  .grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+
+    @-webkit-keyframes color-change {
+      0% {
+        fill: #000;
+      }
+      50% {
+        fill: #aeb5b2;
+      }
+      100% {
+        fill: #717d78;
+      }
+    }
+
+    @keyframes color-change {
+      0% {
+        fill: #000;
+      }
+      50% {
+        fill: #aeb5b2;
+      }
+      100% {
+        fill: #717d78;
+      }
+    }
+
+    .sun {
+      -webkit-animation: 4s color-change infinite alternate linear;
+              animation: 4s color-change infinite alternate linear;
+    }
