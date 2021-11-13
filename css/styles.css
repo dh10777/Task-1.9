@@ -1,6 +1,5 @@
-
 :root {
-
+  --background-color: #white;
   --primary-color: #35463f;
   --visited-color: #A4957D;
   --h-font-weight: 700;
@@ -80,7 +79,7 @@ thead {
 }
 
 .profile__portrait {
-  float: flex;
+  float: right;
   text-align: center;
   width: 250px;
   margin-right: 40px;
@@ -89,7 +88,7 @@ thead {
 
 .page-footer {
   clear: both;
-  display: static;
+  display: flex;
   text-align: left;
   flex-direction: column-reverse;
 }
@@ -136,7 +135,6 @@ thead {
 
 .page-header__item {
   text-align: right;
-  text-align: right;
   flex: 0 1 200px;
 }
 
@@ -157,7 +155,7 @@ thead {
 
 
 .grid__item {
-  display: inline-block;
+  display: flex;
   width: 33%;
 }
 
@@ -174,7 +172,6 @@ thead {
     background-color: lightgray;
     width: auto;
     min-height: auto;
-    margin: 0;
   }
 
   .grid__item:last-child {
@@ -195,25 +192,4 @@ thead {
     .grid__item:last-child {
       grid-column: auto / auto;
       grid-row: auto / auto;
-    }
-    h1 {
-      font-size: 22px;
-    }
-
-    @keyframes color-change {
-      0% {
-        fill: var(--one-color);
-      }
-      50% {
-        fill: var(--two-color);
-      }
-      100% {
-        fill: var(--three-color);
-      }
-    }
-
-    .sun {
-      animation: 4s color-change infinite alternate linear;
-    }
-
-    </body>
+}
