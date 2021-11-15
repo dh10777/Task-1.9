@@ -79,8 +79,8 @@ thead {
 }
 
 .profile__portrait {
-  float: right;
-  text-align: center;
+  float: left;
+  text-align: left;
   width: 250px;
   margin-right: 40px;
   border-radius: 40%;
@@ -94,12 +94,12 @@ thead {
 }
 
 .body_margin {
-  text-align: center;
+  text-align: left;
   margin-left: 25px;
 }
 
 .body_center {
-  text-align: center;
+  text-align: left;
 }
 .my_work {
   margin-left: 25px;
@@ -134,13 +134,13 @@ thead {
 }
 
 .page-header__item {
-  text-align: right;
+  text-align: left;
   flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   flex-grow: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .navigation-list {
